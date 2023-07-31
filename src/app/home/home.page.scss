@@ -1,0 +1,57 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-slides {
+  height: 80%;
+}
+
+ion-slide {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 100%;  
+  width: 70%;
+  color: white;
+}
+
+.slide1 {
+  background-image: url("/assets/pic1.jpg");
+}
+
+.slide2 {
+  background-image: url("/assets/pic2.jpg");
+}
+
+.slide3 {
+  background-image: url("/assets/pic3.jpg");
+}
+
+.slide-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}

@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      SLides
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,19 +9,22 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Slides</ion-title>
     </ion-toolbar>
   </ion-header>
 
 <ion-slides [options]="{ slidesPerView: 'auto', centeredSlides: true, spaceBetween: 30}">
-  <ion-slide class="slide1 slide-bg">
+  <ion-slide class="sun first-slide slide-bg">
     <h1>Slide 1</h1>
   </ion-slide>
-  <ion-slide class="slide2 slide-bg">
+  <ion-slide class="rose middle-slide slide-bg">
     <h1>Slide 2</h1>
   </ion-slide>
-  <ion-slide class="slide3 slide-bg">
-    <h1>Slide 3</h1>
+  <ion-slide class="rose middle-slide slide-bg">
+    <h1>Slide 4</h1>
+  </ion-slide>
+  <ion-slide class="purple last-slide slide-bg">
+    <h1>Slide 6</h1>
   </ion-slide>
   </ion-slides>
 </ion-content>

@@ -31,22 +31,40 @@ ion-slides {
 }
 
 ion-slide {
-  padding-left: 10%;
-  padding-right: 10%;
-  height: 100%;  
-  width: 70%;
   color: white;
+  height: 100%;  
 }
 
-.slide1 {
+ion-slide.middle-slide {
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 70%;
+}
+
+ion-slide.first-slide {
+  padding-right: 0%;  
+  width: 85%;
+  margin-left: -10%;
+}
+
+
+ion-slide.last-slide {
+  padding-right: 0%;    
+  width: 85%;
+  margin-right: -10%;
+}
+
+
+
+.sun {
   background-image: url("/assets/pic1.jpg");
 }
 
-.slide2 {
+.rose {
   background-image: url("/assets/pic2.jpg");
 }
 
-.slide3 {
+.purple {
   background-image: url("/assets/pic3.jpg");
 }
 
